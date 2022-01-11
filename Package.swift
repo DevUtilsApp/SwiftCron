@@ -11,5 +11,9 @@ let package = Package(
       targets: ["SwiftCron"]),
     ],
     dependencies: [],
-    targets: []
+    targets: [
+    .target(
+      name: "SwiftCron",
+      dependencies: []),
+  ]
 )
